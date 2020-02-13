@@ -1,2 +1,3 @@
+include ':remote-flickr-client'
 include ':app'
 rootProject.name='FlickrGarden'
