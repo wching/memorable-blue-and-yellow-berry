@@ -84,3 +84,4 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 /.idea
+/remote-flickr-client/src/main/java/com/ching/walter/remoteflickrclient/base/RemoteFlickrConstants.kt
