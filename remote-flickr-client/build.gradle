@@ -30,6 +30,21 @@ dependencies {
 
     // endregion
 
+    // region Okhttp
+
+    implementation Dependencies.okhttp3
+    implementation Dependencies.okhttp3Logging
+
+    // endregion
+
+    // region Retrofit
+
+    implementation Dependencies.retrofit
+    implementation Dependencies.retrofitConverter
+    implementation Dependencies.retrofitAdapter
+
+    // endregion
+
     // region RxJava
 
     implementation Dependencies.rxJava
