@@ -13,12 +13,11 @@ import javax.inject.Inject
 class FlickrApiController @Inject constructor(
     private val flickrApiService: IFlickrApiService
 ) {
-
-    fun searchImages(
+    fun search(
         remoteFlickrSearchParams: RemoteFlickrSearchParams
     ): Observable<RemoteFlickrSearchResponse> =
         with(remoteFlickrSearchParams) {
-            flickrApiService.searchImages(
+            flickrApiService.search(
                 apiKey = API_KEY,
                 format = RESPONSE_FORMAT,
                 method = SEARCH_METHOD,

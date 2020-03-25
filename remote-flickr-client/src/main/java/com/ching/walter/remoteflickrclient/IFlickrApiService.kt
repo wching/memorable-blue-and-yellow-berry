@@ -8,7 +8,7 @@ import retrofit2.http.Query
 interface IFlickrApiService {
 
     @GET
-    fun searchImages(
+    fun search(
         @Query(value = "api_key") apiKey: String,
         @Query(value = "format") format: String,
         @Query(value = "method") method: String,
