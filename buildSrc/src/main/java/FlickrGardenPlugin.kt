@@ -102,6 +102,8 @@ class FlickrGardenPlugin : Plugin<Project> {
             }
         }
     }
+
+    // endregion
 }
 
 inline fun <reified T : Any> ExtensionContainer.getByType(): T = getByType(T::class.java)
