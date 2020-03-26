@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ching.walter.flickrgarden">
+    package="com.ching.walter.photogarden">
 
     <application
         android:allowBackup="false"

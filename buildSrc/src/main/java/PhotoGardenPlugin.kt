@@ -10,7 +10,7 @@ import org.gradle.kotlin.dsl.apply
 import org.gradle.kotlin.dsl.configure
 import org.jlleitschuh.gradle.ktlint.KtlintExtension
 
-class FlickrGardenPlugin : Plugin<Project> {
+class PhotoGardenPlugin : Plugin<Project> {
 
     // region Companion Object
 
