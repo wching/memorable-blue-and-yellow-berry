@@ -81,6 +81,12 @@ object Versions {
 
     // endregion
 
+    // region Apollo
+
+    const val apolloVersion: String = "1.4.0"
+
+    // endregion
+
     // region Dagger
 
     const val googleDaggerVersion: String = "2.26"
