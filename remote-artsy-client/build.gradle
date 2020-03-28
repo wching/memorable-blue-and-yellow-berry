@@ -1,0 +1,50 @@
+apply plugin: PhotoGardenPlugin
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.apollographql.apollo'
+
+apollo {
+    generateKotlinModels = true
+}
+
+dependencies {
+    // region Annotations
+
+    implementation Dependencies.javax
+
+    // endregion
+
+    // region Apollo
+
+    implementation Dependencies.apollo
+
+    // endregion
+
+    // region Kotlin
+
+    implementation Dependencies.kotlinStdlib
+
+    // endregion
+
+    // region Local
+
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+
+    // endregion
+
+    // region Okhttp
+
+    implementation Dependencies.okhttp3
+    implementation Dependencies.okhttp3Logging
+
+    // endregion
+
+    // region Tests
+
+    testImplementation Dependencies.junit
+    testImplementation Dependencies.mockitoKotlin
+    testImplementation Dependencies.jUnitParams
+
+    // endregion
+}
