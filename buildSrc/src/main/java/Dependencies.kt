@@ -6,6 +6,12 @@ object SdkVersion {
 
 object PluginDependencies {
 
+    // region Apollo
+
+    const val apolloPlugin = "com.apollographql.apollo:apollo-gradle-plugin:${Versions.apolloVersion}"
+
+    // endregion
+
     // region Gradle
 
     const val gradle = "com.android.tools.build:gradle:${Versions.androidToolsBuildGradleVersion}"
@@ -83,7 +89,7 @@ object Versions {
 
     // region Apollo
 
-    const val apolloVersion: String = "1.4.0"
+    const val apolloVersion: String = "1.4.1"
 
     // endregion
 
@@ -195,6 +201,12 @@ object Dependencies {
     // region Annotations
 
     const val javax = "javax.inject:javax.inject:${Versions.javaxInjectVersion}"
+
+    // endregion
+
+    // region Apollo
+
+    const val apollo = "com.apollographql.apollo:apollo-runtime:${Versions.apolloVersion}"
 
     // endregion
 
