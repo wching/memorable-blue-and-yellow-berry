@@ -1,0 +1,14 @@
+{
+  "name": "Artsy GraphQL Schema",
+  "schemaPath": "schema.json",
+  "extensions": {
+    "endpoints": {
+      "Production": {
+        "url": "https://metaphysics-production.artsy.net/v2"
+      },
+      "Staging": {
+        "url": "https://metaphysics-staging.artsy.net/v2"
+      }
+    }
+  }
+}
