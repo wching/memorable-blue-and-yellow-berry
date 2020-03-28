@@ -9,8 +9,8 @@ repositories {
 }
 
 dependencies {
-    implementation("com.android.tools.build:gradle:3.5.3")
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.61")
-    implementation("io.gitlab.arturbosch.detekt:detekt-gradle-plugin:1.5.0")
-    implementation("org.jlleitschuh.gradle:ktlint-gradle:9.1.1")
+    implementation("com.android.tools.build:gradle:3.6.1")
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.71")
+    implementation("io.gitlab.arturbosch.detekt:detekt-gradle-plugin:1.6.0")
+    implementation("org.jlleitschuh.gradle:ktlint-gradle:9.2.1")
 }
