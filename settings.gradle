@@ -1,3 +1,4 @@
-include ':remote-flickr-client'
+rootProject.name='PhotosGarden'
 include ':app'
-rootProject.name='FlickrGarden'
+include ':remote-flickr-client'
+include ':remote-artsy-client'
